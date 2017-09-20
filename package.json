@@ -1,0 +1,32 @@
+{
+  "name": "2d-packing",
+  "version": "0.0.1",
+  "description": "An app that allows you to create a bin and boxes to pack in to it.",
+  "main": "index.html",
+  "scripts": {
+    "test": "n/a",
+    "prestart": "npm install",
+    "start": "http-server -a localhost -c-1 -p 8083"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jephrie/2d-packing.git"
+  },
+  "keywords": [
+    "2d bin packing", "maximal rectangle"
+  ],
+  "author": "Jeffrey Tran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jephrie/2d-packing.git/issues"
+  },
+  "homepage": "https://github.com/jephrie/2d-packing.git#readme",
+  "dependencies": {
+    "angular": "^1.6.4",
+    "angular-animate": "^1.6.5",
+    "angular-aria": "^1.6.5",
+    "angular-material": "^1.1.4",
+    "angular-messages": "^1.6.5",
+    "http-server": "^0.10.0"
+  }
+}

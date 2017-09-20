@@ -1,0 +1,36 @@
+h1 {
+  text-align: center;
+}
+
+.material-icons.md-48 {
+  font-size: 48px;
+}
+.material-icons.md-32 {
+  font-size: 32px;
+}
+
+.carousel-nav-button {
+  height: 100%;
+}
+
+.binCanvas {
+  margin-left: 30px;
+  margin-right: 30px;
+  border: 1px solid black;
+}
+
+#canvas-options {
+  margin-top: 20px;
+}
+
+#boxCanvas {
+  border: 3px solid black;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.option-heading {
+  background-color: #7f7f7f;
+  width: 100%;
+  text-align: center;
+}
