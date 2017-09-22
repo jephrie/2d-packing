@@ -1,0 +1,22 @@
+// Packed rectangle is completely encapsulated and appears in a corner of a free rectangle
+given a rectangle F of size 10x10 (w x h)
+and a rectangle R of size 5x5
+and R is packed to the bottom left, coords (0,5), of F
+when a maximal rectangle split is performed on F
+then F is split in to a 10x5 and 5x10 rectangle originating at coords (0,0), (5,0) respectively
+
+// Packed rectangle is completely encapsulated filling an entire edge of a free rectangle
+given a rectangle F of size 10x10 (w x h)
+
+// Packed rectangle is partially encapsulated filling an entire edge of a free retangle
+
+// Packed rectangle is partially encapsulated and appears in a corner of a free rectangle
+
+// Packed rectangle is completely encapsulated and appears along one horizontal edge of a free rectangle
+// Packed rectangle is partially encapsulated and appears along one horizontal edge of a free rectangle
+// Packed rectangle is completely encapsulated and appears along one vertical edge of a free rectangle
+// Packed rectangle is partially encapsulated and appears along one vertical edge of a free rectangle
+
+// Packed rectangle is completely encapsulated and appears along no edges of a free rectangle (drifting)
+
+// Packed rectangle is not encapsulated in a free rectangle
